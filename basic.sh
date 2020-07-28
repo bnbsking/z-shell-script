@@ -48,6 +48,10 @@ for num in 1 2 3; do
 	echo hello $num
 done
 
+for fruit in ${A[*]}; do
+	echo $fruit
+done
+
 s=0
 for ((i=0;i<10;i++)); do
 	s=$((s+i))
