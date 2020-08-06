@@ -12,6 +12,6 @@ for filename in *; do
 	put "$filename"
 	quit
 END_SCRIPT
-
+rm "$filename"
 done
 
