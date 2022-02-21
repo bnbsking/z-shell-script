@@ -69,3 +69,6 @@ function sayHi(){
 	echo $0, $1, $2   # out parameter
 }
 sayHi tree bird
+
+# ln src dest    # hard link # cannot be folder # same color # write one affect the other # delete one, the other remains   # check ls -i
+# ln -s src dest # soft link # can be folder    # cyan color # write one affect the other # delete source, the other failed # check ls -l
